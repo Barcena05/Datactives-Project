@@ -1,0 +1,52 @@
+{
+    "years":[
+        {
+            "Europa": 89706,
+            "Asia":404371,
+            "LATAM": 471207,
+            "Canada":18469,
+            "Africa":	116667,
+            "Oceania":	5986
+        },
+        {
+            "Europa": 85486,
+            "Asia":383145,
+            "LATAM": 474954,
+            "Canada":14337,
+            "Africa":		112745,
+            "Oceania":	5422
+        },
+        {
+            "Europa": 	90810,
+            "Asia":352593,
+            "LATAM": 438218,
+            "Canada":14723,
+            "Africa":		110048,
+            "Oceania":	6209
+        },
+        {
+            "Europa": 70284,
+            "Asia":260706,
+            "LATAM": 264511,
+            "Canada":11297,
+            "Africa":	76789,
+            "Oceania":	4748
+        },
+        {
+            "Europa": 60744,
+            "Asia":283898,
+            "LATAM": 288755,
+            "Canada":12053,
+            "Africa":		64983,
+            "Oceania":	4715
+        },
+        {
+            "Europa": 	69145,
+            "Asia":377942,
+            "LATAM": 355648,
+            "Canada":13916,
+            "Africa":82117,
+            "Oceania":4982
+        }
+    ]
+}

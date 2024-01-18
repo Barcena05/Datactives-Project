@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journalist Article</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Analisis acerca de la migracion desde Latinoamerica hacia los Estados Unidos. Comparaciones antes y despues
+            de la Covid-19</h1>
+        <hr>
+        <p>Como se relacionan ambos fenomenos?</p>
+    </header>
+    <hr>
+    <main>
+        <section id="Introduction">
+            <canvas id="myBarChart"></canvas>
+            <canvas id="myBarChart2"></canvas>
+            <p>
+                La migracion internacional es un fenomeno tan antiguo como la misma humanidad; sin embargo, no por ello
+                deja de ser un tema delicado.
+                Un caso particular es la migracion desde paises latinoamericanos, el cual ha sido objeto de debate
+                durante mucho tiempo.
+                Una peculiaridad de este escenario es el hecho de que el destino que mas migrantes latinoamericanos
+                recibe es Estados Unidos. Esto
+                no es nada novedoso, se ha comportado asi durante mucho tiempo; los migrantes latinoamericanos suelen
+                partir de sus paises generalmente
+                en busqueda de una mejoria economica, y en menor medida por razones politicas; y encuentran el destino
+                perfecto en el pais del norte.
+                Por que Estados Unidos? Los motivos son muchos, desde la estabilidad economica que ofrece el pais
+                (ampliamente mayor que en la region
+                surena) hasta la propagandistica idea del llamado sueno americano. No obstante no es objeto de este
+                trabajo abordar los motivos de la
+                migracion hacia Estados Unidos, sino el comportamiento de esta antes y despues del surgimiento de la
+                pandemia de Covid 19, para lo cual
+                se analizaran datos comprendidos en el periodo 2017-2022. Este trabajo no constituye una investigacion
+                exhaustiva, sino un mero objeto
+                ilustrativo. Todos los datos fueron recopilados de fuentes oficiales (Vease <a
+                    href="#footer">referencias</a>)
+            </p>
+
+        </section>
+        <hr>
+        <section id="MainContent">
+            <p>
+                Anteriormente mencionamos que una de las razones de mayor peso con respecto a la migracion suele ser el
+                tema economico; pues bien,
+                en este aspecto la Covid-19 ha tenido un impacto notable. La pandemia arribo a Latinoamerica a finales
+                de febrero del 2020 y desde
+                entonces
+                influyo en algunos indicadores de interes; por ejemplo: el PIB, PIB per capita, inflacion, etc. Los
+                resultados son, sin embargo,
+                heterogeneos. Algunos paises mantuvieron cierto nivel de estabilidad, mientras que otros sufrieron de
+                una caida (en algunos casos
+                un tanto abrupta) de estos indicadores. Sin embargo, de manera general el impacto de la enfermedad en
+                las economias de
+                los paises latinoamericanos
+                fue negativa, lo cual es de esperar dados los gastos en materia de salud y aseguramiento logistico que
+                se vieron obligados a asumir
+                los gobiernos para combatir el virus, asi como la disminucion del comercio y el turismo (este ultimo en
+                muchos casos llego a un estado
+                de total recesion).
+            </p>
+
+            <div style="overflow-y: hidden;">
+                <canvas id="myBarChart3"></canvas>
+                <p>
+                    Ahora bien, que impacto ha tenido esto en la migracion latinoamericana? Como se han comportado los
+                    indicadores migratorios en
+                    este periodo? Segun datos de la Comision Economica para Latinoamerica y el Caribe (ECLAC), en 2019
+                    el 62% de los migrantes de la region
+                    tuvieron como destino los Estados Unidos
+                </p>
+            </div>
+            <p>
+                Analicemos entonces ciertos indicadores economicos y sociales para acercarnos al complejo panorama que
+                ha dejado la Covid-19.
+            </p>
+
+            <p>
+                En primer lugar tenemos indicadores economicos como el PIB total de los paises de la region,
+                o la tasa de crecimiento del mismo. Analicemos el comportamiento de ambas metricas en el periodo
+                comprendido entre los anos 2017 y 2022:
+            </p>
+            <canvas id="EconomicalIndicators"></canvas>
+            <div class="Selectors">
+                <label for="Country">Country</label>
+                <select name="Country" id="EconomicalCountry" title="Country" style="max-height: 30px;"></select>
+                <label for="Indicator">Indicator</label>
+                <select name="Indicator" id="EconomicalIndicator" title="Indicator"></select>
+            </div>
+            <p>
+                Dado el impacto que tuvo la pandemia en la region cabe preguntarse: cuanto del presupuesto
+                nacional dedico cada pais al sector sanitario? La siguiente grafica responde esta interrogante en el
+                periodo 2017-2020:
+            </p>
+            <canvas id="HealthExpenditure"></canvas>
+            <div class="Selectors">
+                <label for="Country">Country</label>
+                <select name="Country" id="HealthCountry" title="Country" style="height: 25px;"></select>
+            </div>
+            <p>
+                Ahora bien, la Covid-19 no solo tuvo impacto en indicadores economicos; sino que es bien conocido
+                que altero ademas diversos indicadores sociales a lo largo de todo el planeta. Dos de las mas expresivas
+                metricas en este
+                sentido son las tazas de desempleo y los ciudadanos viviendo en condiciones precarias. Latinoamerica y
+                el Caribe no son la
+                exepcion en este sentido, mas bien todo lo contrario. Veamos como se comportaron estos valores en este
+                periodo. Las siguientes
+                graficas nos acercan a esta realidad:
+            </p>
+            <canvas id="UnemployementRate"></canvas>
+            <div class="Selectors">
+                <label for="Country">Country</label>
+                <select name="Country" id="UnemployementCountry" title="Country" style="height: 25px;"></select>
+            </div>
+            <canvas id="PovertyPercentage"></canvas>
+            <div class="Selectors">
+                <label for="Country">Country</label>
+                <select name="Country" id="PovertyCountry" title="Country" style="height: 25px;"></select>
+            </div>
+            <p>
+                Todos estos factores, que si bien se han visto agravados por la pandemia no nacieron con ella; han
+                influido notablemente
+                en el incremento del flujo migratorio desde America Latina y el Caribe. Es natural entonces preguntarse
+                cuanto. Podemos realmente
+                cuantificar de alguna forma este 'deseo' existente en los ciudadanos latinoamericanos? Esto resulta
+                complejo en gran medida,
+                sin embargo podemos intentar ilustrar de manera aproximada como se ha comportado este fenomeno.
+                A continuacion se exponen los porcientos de las poblaciones que han pensado en migrar hacia territorios
+                extranjeros en busqueda
+                de una mejoria para su nivel de vida segun estudios realizados por la ECLAC.
+            </p>
+            <canvas id="MigrationThoughts"></canvas>
+            <div class="Selectors">
+                <label for="Country">Country</label>
+                <select name="Country" id="MigrationThoughtsCountry" title="Country" style="height: 25px;"></select>
+            </div>
+            <p>
+                Segun datos del Departamento de Seguridad Nacional de los Estados Unidos, en el periodo comprendido
+                entre 2017-2022 hubo un total de
+                5,721,256 ciudadanos extranjeros que obtuvieron la residencia permanente en el pais. De esta cantidad,
+                unos 2,293,293 provenian de
+                Latinoamerica y el Caribe. Esto representa aproximadamente un 40% del total de migrantes. La grafica
+                ilustra estas cantidades en funcion
+                de las distintas regiones de origen con el objetivo de utilizar esta 'metrica' para ayudar a comprender
+                un poco mejor el comportamiento de la migracion desde America Latina hacia los Estados Unidos.
+            </p>
+            <canvas id="CitizenshipAdquisition"></canvas>
+            <div class="Selectors">
+                <label for="Year">Year</label>
+                <select name="Year" id="CitizenshipAdquisitionYear" title="Year" style="height: 25px;"></select>
+            </div>
+        </section>
+        <hr>
+        <section id="Coclutions">
+            <p>
+                La migración desde países latinoamericanos a Estados Unidos ha sido motivada en gran medida por la
+                búsqueda de una mejora económica, atraídos por la estabilidad y la idea del "sueño americano". La
+                llegada de la pandemia de Covid-19 a la región ha tenido un impacto heterogéneo en los indicadores
+                económicos y sociales, lo cual plantea la necesidad de examinar cómo esto ha influido en los patrones
+                migratorios durante este período desafiante. Los datos sugieren una influencia significativa de factores
+                económicos y sociales en la dinámica migratoria desde la región hacia Estados Unidos, con una marcada tendencia al aumento
+                de las ideas migratorias de los ciudadanos latinos. Cabe preguntarse, sin embargo, si es esta la mejor alternativa; pues
+                evidentemente no es la unica que se nos presenta. No es sino humano reflexionar si es esa la solucion correcta a nuestros problemas,
+                es realmente esa la America Latina que queremos...
+            </p>
+        </section>
+        <hr>
+    </main>
+    <footer id="footer">
+        <h3>Autor:</h3>
+        <p>Ernesto Barcena Trujillo</p>
+        <h3>Fuentes:</h3>
+        <ol>
+            <li>
+                Economic Commission for Latin America and the Caribbean (ECLAC).
+            </li>
+            <li>
+                Department of Homeland Security if the United States of America (DHS).
+            </li>
+        </ol>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

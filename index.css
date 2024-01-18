@@ -1,0 +1,87 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    margin: 5%;
+  }
+  
+  header {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+  }
+  header > hr
+  {
+    border-color: white;
+  }
+  hr
+  {
+    border-color: darkgreen;
+  }
+  
+  footer {
+    padding: 1rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  main section {
+    padding: 2rem 1rem;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    color: inherit;
+    text-align: center;
+  }
+  
+  p {
+    color: inherit;
+    font-size: 1.1rem;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  #myBarChart, #myBarChart2, #myBarChart3
+  {
+    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
+    clear: right;
+    margin-left: 10px;
+  }
+  #EconomicalIndicators,#HealthExpenditure, #UnemployementRate, #PovertyPercentage, #MigrationThoughts, #CitizenshipAdquisition
+  {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  .Selectors
+  {
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Selectors>select
+  {
+    min-width: 150px;
+  }
+  #Introduction, #MainContent
+  {
+    overflow-y: hidden;
+  }
